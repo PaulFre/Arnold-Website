@@ -6,7 +6,7 @@ export default function FahrzeugePage() {
       <div className="container narrow">
         <h1>Fahrzeuge</h1>
         <p>
-          Hier findest du den aktuellen Fahrzeugbestand. Falls das Embed auf deinem Geraet nicht funktioniert, nutze
+          Hier findest du den aktuellen Fahrzeugbestand. Falls das Embed auf deinem Gerät nicht funktioniert, nutze
           bitte den externen Link.
         </p>
         <InventoryEmbed />

@@ -6,7 +6,7 @@ export default function FahrzeugVerkaufenPage() {
       <section className="section">
         <div className="container narrow">
           <h1>Fahrzeug verkaufen</h1>
-          <p>Hier findest du alle Optionen fuer Bewertung und Terminbuchung.</p>
+          <p>Hier findest du alle Optionen für Bewertung und Terminbuchung.</p>
         </div>
       </section>
       <SellSection />

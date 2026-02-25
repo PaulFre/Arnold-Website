@@ -8,12 +8,12 @@ export default function TerminPage() {
         <p>Waehlen Sie Ihren Wunschtermin, wir bestaetigen kurzfristig.</p>
         <div className="card">
           <a className="btn btn-primary" href={siteConfig.bookingUrl} target="_blank" rel="noreferrer">
-            Terminseite oeffnen
+            Terminseite öffnen
           </a>
           <a className="btn btn-secondary" href={createTelLink()}>
             Telefonisch anrufen
           </a>
-          <a className="btn btn-secondary" href={createWhatsappLink("Hallo, ich moechte einen Termin vereinbaren.")}>
+          <a className="btn btn-secondary" href={createWhatsappLink("Hallo, ich möchte einen Termin vereinbaren.")}>
             WhatsApp schreiben
           </a>
         </div>

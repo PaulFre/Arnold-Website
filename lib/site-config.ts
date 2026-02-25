@@ -5,13 +5,13 @@ const digitsOnly = (value: string): string => value.replace(/\D/g, "");
 
 export const siteConfig = {
   businessName: required(process.env.NEXT_PUBLIC_BUSINESS_NAME, "Arnold Automobile"),
-  city: required(process.env.NEXT_PUBLIC_CITY, "Bad Duerkheim"),
+  city: required(process.env.NEXT_PUBLIC_CITY, "Bad Dürkheim"),
   phoneDisplay: required(process.env.NEXT_PUBLIC_PHONE_DISPLAY, "+49 0000 000000"),
   phoneInternational: required(process.env.NEXT_PUBLIC_PHONE_E164, "490000000000"),
   siteUrl: required(process.env.NEXT_PUBLIC_SITE_URL, "http://localhost:3000"),
   whatsappMessage: required(
     process.env.NEXT_PUBLIC_WHATSAPP_MESSAGE,
-    "Hallo, ich interessiere mich fuer ein Fahrzeug von Arnold Automobile."
+    "Hallo, ich interessiere mich für ein Fahrzeug von Arnold Automobile."
   ),
   inventoryEmbedUrl: required(
     process.env.NEXT_PUBLIC_INVENTORY_EMBED_URL,

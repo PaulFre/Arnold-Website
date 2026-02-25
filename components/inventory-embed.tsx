@@ -13,15 +13,15 @@ export function InventoryEmbed() {
         <div className="consent-box" role="region" aria-live="polite">
           <h2>Fahrzeugbestand laden</h2>
           <p>
-            Der Bestand wird ueber eine externe mobile.de Seite angezeigt. Beim Laden koennen Daten an den Anbieter
-            uebertragen werden.
+            Der Bestand wird über eine externe mobile.de Seite angezeigt. Beim Laden können Daten an den Anbieter
+            übertragen werden.
           </p>
           <div className="button-row">
             <button className="btn btn-primary" type="button" onClick={() => setConsented(true)}>
               Inhalt aktivieren
             </button>
             <a className="btn btn-secondary" href={siteConfig.inventoryFallbackUrl} target="_blank" rel="noreferrer">
-              Bestand extern oeffnen
+              Bestand extern öffnen
             </a>
           </div>
         </div>

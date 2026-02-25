@@ -107,11 +107,11 @@ export function ValuationForm() {
         <label>
           Zustand*
           <select name="condition" required>
-            <option value="">Bitte waehlen</option>
+            <option value="">Bitte wählen</option>
             <option value="sehr_gut">Sehr gut</option>
             <option value="gut">Gut</option>
             <option value="okay">Okay</option>
-            <option value="reparaturbeduerftig">Reparaturbeduerftig</option>
+            <option value="reparaturbeduerftig">Reparaturbedürftig</option>
           </select>
         </label>
 
@@ -152,7 +152,7 @@ export function ValuationForm() {
       </div>
 
       <fieldset>
-        <legend>Gewuenschter Kontaktweg*</legend>
+        <legend>Gewünschter Kontaktweg*</legend>
         <label>
           <input
             type="radio"

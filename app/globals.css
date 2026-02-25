@@ -100,17 +100,16 @@ main {
   white-space: nowrap;
 }
 
-.logo-box {
-  width: 48px;
-  height: 32px;
-  border-radius: 9px;
-  background: linear-gradient(140deg, #2f3136 0%, #1f2125 100%);
-  border: 1px solid #484d56;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.68rem;
-  color: #9fa8b6;
+.logo-image {
+  width: auto;
+  height: 40px;
+  max-width: 162px;
+  object-fit: contain;
+}
+
+.logo-name {
+  font-size: 1rem;
+  letter-spacing: 0.2px;
 }
 
 .nav-list {
@@ -129,8 +128,7 @@ main {
   gap: 0.2rem;
 }
 
-.nav-list a,
-.menu-trigger {
+.nav-list a {
   font: inherit;
   border: 0;
   background: transparent;
@@ -140,14 +138,8 @@ main {
   border-radius: 9px;
 }
 
-.nav-list a:hover,
-.menu-trigger:hover {
+.nav-list a:hover {
   background: #222731;
-}
-
-.menu-trigger {
-  padding: 0.45rem 0.45rem;
-  color: #afb6c1;
 }
 
 .dropdown {
@@ -163,7 +155,8 @@ main {
   padding: 0.35rem;
 }
 
-.dropdown.show {
+.menu-item:hover .dropdown,
+.menu-item:focus-within .dropdown {
   display: block;
 }
 
@@ -368,14 +361,6 @@ p {
   max-width: 65ch;
 }
 
-.split-actions {
-  margin-top: 1rem;
-  display: grid;
-  grid-template-columns: 1fr 22px 1fr;
-  align-items: center;
-  gap: 0.8rem;
-}
-
 .divider {
   width: 1px;
   height: 42px;
@@ -383,18 +368,40 @@ p {
   justify-self: center;
 }
 
-.sell-image-grid {
-  margin-top: 1rem;
+.sell-split-panels {
+  margin-top: 1.1rem;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr 22px 1fr;
+  align-items: stretch;
   gap: 0.8rem;
 }
 
-.sell-image {
-  height: 140px;
-  border-radius: 12px;
-  border: 1px solid #3a4048;
-  background: linear-gradient(140deg, #2c3138 0%, #1d2127 100%);
+.sell-panel {
+  min-height: 230px;
+  border-radius: 14px;
+  border: 1px solid #3e444f;
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.panel-left {
+  background-image: linear-gradient(rgba(16, 16, 16, 0.4), rgba(16, 16, 16, 0.4)),
+    linear-gradient(140deg, #3a3f47 0%, #262b33 100%);
+}
+
+.panel-right {
+  background-image: linear-gradient(rgba(16, 16, 16, 0.4), rgba(16, 16, 16, 0.4)),
+    linear-gradient(140deg, #414652 0%, #2a3039 100%);
+}
+
+.panel-divider {
+  align-self: center;
+  height: 160px;
 }
 
 .floating-actions {
@@ -607,16 +614,12 @@ a:focus-visible {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .split-actions {
+  .sell-split-panels {
     grid-template-columns: 1fr;
   }
 
   .divider {
     display: none;
-  }
-
-  .sell-image-grid {
-    grid-template-columns: 1fr;
   }
 
   .form-grid {
@@ -641,6 +644,14 @@ a:focus-visible {
   .brand-row {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .logo {
+    white-space: normal;
+  }
+
+  .logo-image {
+    height: 34px;
   }
 
   .slide-frame {

@@ -1,10 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
-import { createWhatsappLink, siteConfig } from "@/lib/site-config";
-
-type MenuKey = "verkaufen" | "unternehmen" | null;
+import { createWhatsappLink } from "@/lib/site-config";
 
 function WhatsAppIcon() {
   return (
@@ -61,8 +60,8 @@ function ContactModal({
   return (
     <div className="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="kontakt-dialog-title">
       <div className="modal">
-        <button className="modal-close" type="button" onClick={onClose} aria-label="Dialog schliessen">
-          x
+        <button className="modal-close" type="button" onClick={onClose} aria-label="Dialog schließen">
+          ×
         </button>
         <h2 id="kontakt-dialog-title">Kontaktanfrage</h2>
         {!sent ? (
@@ -84,10 +83,10 @@ function ContactModal({
               <textarea required name="message" rows={4} />
             </label>
             <label className="checkbox-row">
-              <input type="checkbox" required /> Ich stimme der Datenschutzerklaerung zu.*
+              <input type="checkbox" required /> Ich stimme der Datenschutzerklärung zu.*
             </label>
             <label className="checkbox-row">
-              <input type="checkbox" required /> Ich stimme der Datennutzung zu, mit Loeschung nach Abschluss.*
+              <input type="checkbox" required /> Ich stimme der Datennutzung zu, mit Löschung nach Abschluss.*
             </label>
             <button className="btn btn-primary" type="submit">
               Anfrage senden
@@ -107,7 +106,6 @@ function ContactModal({
 export function TopChrome() {
   const [hidden, setHidden] = useState(false);
   const lastY = useRef(0);
-  const [openMenu, setOpenMenu] = useState<MenuKey>(null);
   const [contactOpen, setContactOpen] = useState(false);
 
   const waLink = useMemo(() => createWhatsappLink(), []);
@@ -117,7 +115,6 @@ export function TopChrome() {
       const currentY = window.scrollY;
       if (currentY > 140 && currentY > lastY.current) {
         setHidden(true);
-        setOpenMenu(null);
       } else if (currentY < lastY.current) {
         setHidden(false);
       }
@@ -134,10 +131,8 @@ export function TopChrome() {
         <div className="container header-inner">
           <div className="brand-row">
             <Link href="/" className="logo" aria-label="Startseite">
-              <span className="logo-box" aria-hidden="true">
-                Logo
-              </span>
-              <span>{siteConfig.businessName}</span>
+              <Image src="/arnold-logo.svg" alt="Arnold Automobile Logo" width={162} height={52} className="logo-image" />
+              <span className="logo-name">Arnold Automobile</span>
             </Link>
 
             <nav aria-label="Hauptnavigation">
@@ -150,42 +145,26 @@ export function TopChrome() {
                 </li>
                 <li className="menu-item">
                   <Link href="/fahrzeug-verkaufen">Fahrzeug verkaufen</Link>
-                  <button
-                    type="button"
-                    className="menu-trigger"
-                    aria-label="Untermenue Fahrzeug verkaufen"
-                    onClick={() => setOpenMenu(openMenu === "verkaufen" ? null : "verkaufen")}
-                  >
-                    v
-                  </button>
-                  <div className={`dropdown${openMenu === "verkaufen" ? " show" : ""}`}>
-                    <Link href="/bewerten" onClick={() => setOpenMenu(null)}>
+                  <div className="dropdown">
+                    <Link href="/bewerten">
                       Fahrzeug bewerten
                     </Link>
-                    <Link href="/termin" onClick={() => setOpenMenu(null)}>
+                    <Link href="/termin">
                       Direkt Termin buchen
                     </Link>
                   </div>
                 </li>
                 <li className="menu-item">
                   <Link href="/unternehmen">Unternehmen</Link>
-                  <button
-                    type="button"
-                    className="menu-trigger"
-                    aria-label="Untermenue Unternehmen"
-                    onClick={() => setOpenMenu(openMenu === "unternehmen" ? null : "unternehmen")}
-                  >
-                    v
-                  </button>
-                  <div className={`dropdown${openMenu === "unternehmen" ? " show" : ""}`}>
-                    <Link href="/unternehmen#bewertungen" onClick={() => setOpenMenu(null)}>
+                  <div className="dropdown">
+                    <Link href="/unternehmen#bewertungen">
                       Bewertungen
                     </Link>
-                    <Link href="/unternehmen#galerie" onClick={() => setOpenMenu(null)}>
+                    <Link href="/unternehmen#galerie">
                       Bildergalerie
                     </Link>
-                    <Link href="/unternehmen#ueber-uns" onClick={() => setOpenMenu(null)}>
-                      Ueber uns
+                    <Link href="/unternehmen#ueber-uns">
+                      Über uns
                     </Link>
                   </div>
                 </li>
