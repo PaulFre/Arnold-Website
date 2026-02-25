@@ -33,7 +33,7 @@ a {
 }
 
 main {
-  padding-top: 154px;
+  padding-top: 84px;
 }
 
 .container {
@@ -82,20 +82,20 @@ main {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 0.35rem 0;
+  padding: 0.6rem 0;
 }
 
 .site-header .header-inner {
-  width: 100%;
-  margin: 0;
-  padding-left: 1px;
-  padding-right: 2px;
+  width: min(1160px, 92vw);
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .brand-row {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  gap: 1rem;
   min-width: 0;
 }
 
@@ -108,11 +108,14 @@ main {
 }
 
 .logo-image {
-  width: 390px;
-  min-width: 390px;
-  height: 128px;
-  max-width: 560px;
-  object-fit: contain;
+  display: none;
+}
+
+.logo-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
 }
 
 .nav-list {
@@ -606,16 +609,11 @@ a:focus-visible {
 
 @media (max-width: 860px) {
   main {
-    padding-top: 126px;
+    padding-top: 94px;
   }
 
   .header-inner {
     align-items: flex-start;
-  }
-
-  .logo-image {
-    width: 340px;
-    min-width: 0;
   }
 
   .vehicle-grid {
@@ -641,7 +639,7 @@ a:focus-visible {
 
 @media (max-width: 600px) {
   main {
-    padding-top: 124px;
+    padding-top: 114px;
   }
 
   .header-inner {
@@ -658,11 +656,8 @@ a:focus-visible {
     white-space: normal;
   }
 
-  .logo-image {
-    width: 290px;
-    min-width: 0;
-    height: 78px;
-    max-width: 360px;
+  .logo-name {
+    font-size: 1.05rem;
   }
 
   .slide-frame {
