@@ -88,8 +88,8 @@ main {
 .site-header .header-inner {
   width: 100%;
   margin: 0;
-  padding-left: 10px;
-  padding-right: 16px;
+  padding-left: 1px;
+  padding-right: 2px;
 }
 
 .brand-row {
