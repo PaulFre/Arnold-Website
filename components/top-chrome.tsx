@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
 import { createWhatsappLink } from "@/lib/site-config";
@@ -130,7 +131,14 @@ export function TopChrome() {
         <div className="container header-inner">
           <div className="brand-row">
             <Link href="/" className="logo" aria-label="Startseite">
-              <span className="logo-name">Arnold Automobile</span>
+              <Image
+                src="/arnold-logo-frei.png"
+                alt="Arnold Automobile Logo"
+                width={420}
+                height={110}
+                className="logo-image"
+                priority
+              />
             </Link>
 
             <nav aria-label="Hauptnavigation">
