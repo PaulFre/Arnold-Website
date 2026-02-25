@@ -1,9 +1,10 @@
 import { randomUUID } from "crypto";
 import { mkdir, writeFile } from "fs/promises";
 import path from "path";
-import nodemailer from "nodemailer";
 import { z } from "zod";
 export const runtime = "nodejs";
+
+const nodemailer: { createTransport: (...args: any[]) => any } = require("nodemailer");
 
 const MAX_FILE_SIZE = 8 * 1024 * 1024;
 const MAX_FILES = 12;
