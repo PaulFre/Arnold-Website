@@ -132,11 +132,12 @@ export function TopChrome() {
           <div className="brand-row">
             <Link href="/" className="logo" aria-label="Startseite">
               <Image
-                src="/arnold-logo.png"
+                src="/arnold-logo-frei.png"
                 alt="Arnold Automobile Logo"
-                width={220}
-                height={72}
+                width={460}
+                height={130}
                 className="logo-image"
+                priority
               />
             </Link>
 

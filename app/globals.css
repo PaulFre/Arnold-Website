@@ -33,7 +33,7 @@ a {
 }
 
 main {
-  padding-top: 82px;
+  padding-top: 98px;
 }
 
 .container {
@@ -82,7 +82,7 @@ main {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 0.8rem 0;
+  padding: 0.55rem 0;
 }
 
 .brand-row {
@@ -102,8 +102,8 @@ main {
 
 .logo-image {
   width: auto;
-  height: 52px;
-  max-width: 220px;
+  height: 78px;
+  max-width: 360px;
   object-fit: contain;
 }
 
@@ -598,7 +598,7 @@ a:focus-visible {
 
 @media (max-width: 860px) {
   main {
-    padding-top: 104px;
+    padding-top: 112px;
   }
 
   .header-inner {
@@ -628,7 +628,7 @@ a:focus-visible {
 
 @media (max-width: 600px) {
   main {
-    padding-top: 128px;
+    padding-top: 118px;
   }
 
   .header-inner {
@@ -646,8 +646,8 @@ a:focus-visible {
   }
 
   .logo-image {
-    height: 42px;
-    max-width: 180px;
+    height: 56px;
+    max-width: 250px;
   }
 
   .slide-frame {
