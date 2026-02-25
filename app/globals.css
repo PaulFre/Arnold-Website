@@ -105,9 +105,9 @@ main {
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  width: 360px;
-  min-width: 360px;
-  height: 60px;
+  width: 200px;
+  min-width: 200px;
+  height: 40px;
 }
 
 .logo-name {
