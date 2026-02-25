@@ -1,16 +1,10 @@
-import { InventoryEmbed } from "@/components/inventory-embed";
+import { VehicleInventory } from "@/components/vehicle-inventory";
+import { listBrands, readVehicles } from "@/lib/vehicles";
 
-export default function FahrzeugePage() {
+export default async function FahrzeugePage() {
+  const vehicles = await readVehicles();
+  const brands = listBrands(vehicles);
   return (
-    <section className="section">
-      <div className="container narrow">
-        <h1>Fahrzeuge</h1>
-        <p>
-          Hier findest du den aktuellen Fahrzeugbestand. Falls das Embed auf deinem Gerät nicht funktioniert, nutze
-          bitte den externen Link.
-        </p>
-        <InventoryEmbed />
-      </div>
-    </section>
+    <VehicleInventory vehicles={vehicles} brands={brands} />
   );
 }

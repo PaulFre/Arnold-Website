@@ -1,21 +1,22 @@
 # Arnold Automobile MVP Website
 
-Phase-1 MVP als Next.js (App Router) fuer ein Autohaus in Deutschland.
+Phase-1/2 MVP als Next.js (App Router) fuer ein Autohaus in Deutschland.
 
 ## Enthaltene Seiten
 
 - `/` Startseite mit Hero, 3 Haupt-CTAs, USP-Kacheln, Ablauf, FAQ
-- `/fahrzeuge` Fahrzeugbestand mit datenschutzbasiertem Embed + Fallback-Link
+- `/fahrzeuge` eigener Fahrzeugbestand mit Kartenlayout und Markenfilter
 - `/bewerten` Bewertungsformular (Ankauf/Kommission) mit Uploads und DSGVO-Checkbox
 - `/termin` Termin-CTA (Booking Link) + WhatsApp/Telefon
 - `/impressum` Platzhalterseite
 - `/datenschutz` Platzhalterseite
+- `/internal/inventory` interner Bereich zum Inserieren/Bearbeiten/Loeschen von Fahrzeugen (Basic Auth geschützt)
 
 ## Tech-Stack
 
 - Next.js App Router
 - React + TypeScript
-- API Route: `/api/valuation`
+- API Routes: `/api/valuation`, `/api/internal/vehicles`
 - Validierung: `zod`
 - E-Mail Versand: `nodemailer`
 
@@ -32,18 +33,32 @@ Danach: `http://localhost:3000`
 ## Wichtige ENV Variablen
 
 - `NEXT_PUBLIC_PHONE_E164` fuer WhatsApp `wa.me` (ohne `+`, ohne Leerzeichen)
-- `NEXT_PUBLIC_INVENTORY_EMBED_URL` mobile.de oder andere Bestands-URL fuer iFrame
-- `NEXT_PUBLIC_INVENTORY_FALLBACK_URL` externer Link, falls iFrame blockiert ist
 - `NEXT_PUBLIC_BOOKING_URL` Link zur Terminseite (z.B. Google Booking)
 - `CONTACT_EMAIL_TO` Empfaengeradresse fuer Bewertungsanfragen
+- `ADMIN_USER` / `ADMIN_PASS` fuer internen Fahrzeugbereich ohne sichtbares Loginformular
 - `SMTP_*` fuer Mailversand aus der API
 
-## mobile.de Bestand setzen
+## Fahrzeugbestand (eigene Inserate)
 
-1. `NEXT_PUBLIC_INVENTORY_EMBED_URL` auf die gewuenschte Bestandsseite setzen.
-2. Wenn Einbettung per `X-Frame-Options`/`CSP` blockiert wird:
-   - Nutzer klicken auf "Bestand extern oeffnen" (`NEXT_PUBLIC_INVENTORY_FALLBACK_URL`).
-3. Die Seite laedt den Embed erst nach Klick auf "Inhalt aktivieren" (Datenschutz-Flow).
+Die Fahrzeuge liegen in `data/vehicles.json` und werden auf `/fahrzeuge` angezeigt.
+
+- Marken-Filter wird automatisch aus den verfuegbaren Marken erzeugt.
+- Karten zeigen Preis, Daten, Laufleistung, Kraftstoff, Leistung, Getriebe, Standort.
+- Fuer Mitarbeiter:
+  - `/internal/inventory` aufrufen
+  - Browser-Passwortfenster mit `ADMIN_USER` / `ADMIN_PASS`
+  - Fahrzeuge einfuegen, bearbeiten oder loeschen
+
+Zugehoerige interne API:
+- `GET /api/internal/vehicles`
+- `POST /api/internal/vehicles`
+- `PUT /api/internal/vehicles/:id`
+- `DELETE /api/internal/vehicles/:id`
+
+Hinweis Produktion:
+- In Vercel ist das Dateisystem nicht dauerhaft schreibbar.
+- Der interne Inserieren-Flow mit `data/vehicles.json` ist daher fuer lokale Nutzung/MVP geeignet.
+- Fuer dauerhaftes Online-Inserieren in Produktion sollte ein externes Storage/CMS/DB genutzt werden.
 
 ## Bewertungsformular + Uploads
 
