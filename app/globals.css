@@ -90,8 +90,8 @@ main {
 .site-header .header-inner {
   width: 100%;
   margin: 0;
-  padding-left: 18px;
-  padding-right: 24px;
+  padding-left: 30px;
+  padding-right: 14px;
 }
 
 .brand-row {
@@ -105,8 +105,8 @@ main {
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  width: 300px;
-  min-width: 300px;
+  width: 360px;
+  min-width: 360px;
   height: 60px;
 }
 
