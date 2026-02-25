@@ -27,19 +27,11 @@ function MailIcon() {
   );
 }
 
-function ContactModal({
-  open,
-  onClose
-}: {
-  open: boolean;
-  onClose: () => void;
-}) {
+function ContactModal({ open, onClose }: { open: boolean; onClose: () => void }) {
   const [sent, setSent] = useState(false);
 
   useEffect(() => {
-    if (!open) {
-      setSent(false);
-    }
+    if (!open) setSent(false);
   }, [open]);
 
   useEffect(() => {
@@ -107,17 +99,13 @@ export function TopChrome() {
   const [hidden, setHidden] = useState(false);
   const lastY = useRef(0);
   const [contactOpen, setContactOpen] = useState(false);
-
   const waLink = useMemo(() => createWhatsappLink(), []);
 
   useEffect(() => {
     const onScroll = () => {
       const currentY = window.scrollY;
-      if (currentY > 140 && currentY > lastY.current) {
-        setHidden(true);
-      } else if (currentY < lastY.current) {
-        setHidden(false);
-      }
+      if (currentY > 140 && currentY > lastY.current) setHidden(true);
+      else if (currentY < lastY.current) setHidden(false);
       lastY.current = currentY;
     };
 
@@ -131,14 +119,7 @@ export function TopChrome() {
         <div className="container header-inner">
           <div className="brand-row">
             <Link href="/" className="logo" aria-label="Startseite">
-              <Image
-                src="/arnold-logo-frei.png"
-                alt="Arnold Automobile Logo"
-                width={420}
-                height={110}
-                className="logo-image"
-                priority
-              />
+              <Image src="/arnold-logo-frei.png" alt="Arnold Automobile Logo" width={420} height={110} className="logo-image" priority />
             </Link>
 
             <nav aria-label="Hauptnavigation">
@@ -152,26 +133,16 @@ export function TopChrome() {
                 <li className="menu-item">
                   <Link href="/fahrzeug-verkaufen">Fahrzeug verkaufen</Link>
                   <div className="dropdown">
-                    <Link href="/bewerten">
-                      Fahrzeug bewerten
-                    </Link>
-                    <Link href="/termin">
-                      Direkt Termin buchen
-                    </Link>
+                    <Link href="/bewerten">Fahrzeug bewerten</Link>
+                    <Link href="/termin">Direkt Termin buchen</Link>
                   </div>
                 </li>
                 <li className="menu-item">
                   <Link href="/unternehmen">Unternehmen</Link>
                   <div className="dropdown">
-                    <Link href="/unternehmen#bewertungen">
-                      Bewertungen
-                    </Link>
-                    <Link href="/unternehmen#galerie">
-                      Bildergalerie
-                    </Link>
-                    <Link href="/unternehmen#ueber-uns">
-                      Über uns
-                    </Link>
+                    <Link href="/unternehmen#bewertungen">Bewertungen</Link>
+                    <Link href="/unternehmen#galerie">Bildergalerie</Link>
+                    <Link href="/unternehmen#ueber-uns">Über uns</Link>
                   </div>
                 </li>
                 <li>

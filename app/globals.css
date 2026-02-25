@@ -12,6 +12,7 @@
   --danger: #ff9999;
   --radius: 14px;
   --shadow: 0 16px 34px rgba(0, 0, 0, 0.35);
+  --header-height: 86px;
 }
 
 * {
@@ -33,7 +34,7 @@ a {
 }
 
 main {
-  padding-top: 98px;
+  padding-top: var(--header-height);
 }
 
 .container {
@@ -82,7 +83,8 @@ main {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 0.45rem 0;
+  min-height: var(--header-height);
+  padding: 0;
 }
 
 .site-header .header-inner {
@@ -95,16 +97,17 @@ main {
 .brand-row {
   display: flex;
   align-items: center;
-  gap: 1.15rem;
+  gap: 0.9rem;
   min-width: 0;
 }
 
 .logo {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
-  font-weight: 700;
-  white-space: nowrap;
+  justify-content: flex-start;
+  width: 300px;
+  min-width: 300px;
+  height: 60px;
 }
 
 .logo-name {
@@ -113,11 +116,10 @@ main {
 
 .logo-image {
   display: block;
-  width: auto;
-  height: auto;
-  max-width: 720px;
-  max-height: 260px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
+  object-position: left center;
 }
 
 .nav-list {
@@ -607,11 +609,21 @@ a:focus-visible {
   .nav-list {
     flex-wrap: wrap;
   }
+
+  .logo {
+    width: 250px;
+    min-width: 250px;
+    height: 52px;
+  }
 }
 
 @media (max-width: 860px) {
+  :root {
+    --header-height: 82px;
+  }
+
   main {
-    padding-top: 92px;
+    padding-top: var(--header-height);
   }
 
   .header-inner {
@@ -622,9 +634,10 @@ a:focus-visible {
     gap: 0.8rem;
   }
 
-  .logo-image {
+  .logo {
+    width: 220px;
+    min-width: 220px;
     height: 46px;
-    max-width: 255px;
   }
 
   .vehicle-grid {
@@ -649,8 +662,12 @@ a:focus-visible {
 }
 
 @media (max-width: 600px) {
+  :root {
+    --header-height: 108px;
+  }
+
   main {
-    padding-top: 108px;
+    padding-top: var(--header-height);
   }
 
   .header-inner {
@@ -664,12 +681,9 @@ a:focus-visible {
   }
 
   .logo {
-    white-space: normal;
-  }
-
-  .logo-image {
+    width: 210px;
+    min-width: 210px;
     height: 42px;
-    max-width: 225px;
   }
 
   .slide-frame {
