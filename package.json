@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@types/node": "22.10.7",
+    "@types/nodemailer": "^7.0.11",
     "@types/react": "19.0.2",
     "@types/react-dom": "19.0.2",
     "localtunnel": "^2.0.2",
