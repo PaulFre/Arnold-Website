@@ -1,0 +1,635 @@
+C:\Users\freue\.codex\tmp\arg0\codex-arg0nYNyTz : Die Benennung "C:\Users\freue\.codex\tmp\arg0\codex-arg0nYNyTz" 
+wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. 
+öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den 
+Vorgang.
+In Zeile:1 Zeichen:1
++ C:\Users\freue\.codex\tmp\arg0\codex-arg0nYNyTz;C:\Program Files (x86 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\freue\...odex-arg0nYNyTz:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+x86 : Die Benennung "x86" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren 
+Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und 
+wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:67
++ ... \freue\.codex\tmp\arg0\codex-arg0nYNyTz;C:\Program Files (x86)\Intel\ ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+R : Der letzte Verlauf wurde nicht gefunden.
+In Zeile:1 Zeichen:151
++ ... gement Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Manage ...
++                                                                 ~
+    + CategoryInfo          : InvalidOperation: (:) [Invoke-History], InvalidOperationException
+    + FullyQualifiedErrorId : InvokeHistoryNoLastHistoryEntryFound,Microsoft.PowerShell.Commands.InvokeHistoryCommand
+ 
+C:\Windows\system32 : Die Benennung "C:\Windows\system32" wurde nicht als Name eines Cmdlet, einer Funktion, einer 
+Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad 
+korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:189
++ ... tel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Wind ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\system32:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows : Die Benennung "C:\Windows" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:209
++ ... gement Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Wind ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\Wbem : Die Benennung "C:\Windows\System32\Wbem" wurde nicht als Name eines Cmdlet, einer Funktion, 
+einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der 
+Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:220
++ ... iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Wind ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\System32\Wbem:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\WindowsPowerShell\v1.0\ : Die Benennung "C:\Windows\System32\WindowsPowerShell\v1.0\" wurde nicht 
+als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die 
+Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:245
++ ... ows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Prog ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\Syst...owerShell\v1.0\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+x86 : Die Benennung "x86" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren 
+Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und 
+wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:307
++ ... indows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\ ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+R : Der letzte Verlauf wurde nicht gefunden.
+In Zeile:1 Zeichen:389
++ ... nagement Engine Components\DAL;C:\Program Files\Intel\Intel(R) Manage ...
++                                                                 ~
+    + CategoryInfo          : InvalidOperation: (:) [Invoke-History], InvalidOperationException
+    + FullyQualifiedErrorId : InvokeHistoryNoLastHistoryEntryFound,Microsoft.PowerShell.Commands.InvokeHistoryCommand
+ 
+x86 : Die Benennung "x86" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren 
+Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und 
+wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:443
++ ... tel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\ ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+R : Der letzte Verlauf wurde nicht gefunden.
+In Zeile:1 Zeichen:525
++ ... nagement Engine Components\IPT;C:\Program Files\Intel\Intel(R) Manage ...
++                                                                 ~
+    + CategoryInfo          : InvalidOperation: (:) [Invoke-History], InvalidOperationException
+    + FullyQualifiedErrorId : InvokeHistoryNoLastHistoryEntryFound,Microsoft.PowerShell.Commands.InvokeHistoryCommand
+ 
+x86 : Die Benennung "x86" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren 
+Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und 
+wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:579
++ ... tel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : Die Benennung "C:\Program" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:616
++ ... rogram Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\I ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : Die Benennung "C:\Program" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:649
++ ... tion\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\C ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\system32 : Die Benennung "C:\WINDOWS\system32" wurde nicht als Name eines Cmdlet, einer Funktion, einer 
+Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad 
+korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:701
++ ...  Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WIND ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\system32:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS : Die Benennung "C:\WINDOWS" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:721
++ ... on Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WIND ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\System32\Wbem : Die Benennung "C:\WINDOWS\System32\Wbem" wurde nicht als Name eines Cmdlet, einer Funktion, 
+einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der 
+Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:732
++ ... mmon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WIND ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\System32\Wbem:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\ : Die Benennung "C:\WINDOWS\System32\WindowsPowerShell\v1.0\" wurde nicht 
+als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die 
+Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:757
++ ... OWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WIND ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\Syst...owerShell\v1.0\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\System32\OpenSSH\ : Die Benennung "C:\WINDOWS\System32\OpenSSH\" wurde nicht als Name eines Cmdlet, einer 
+Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, 
+oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:801
++ ... System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Prog ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\System32\OpenSSH\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\ProgramData\chocolatey\bin : Die Benennung "C:\ProgramData\chocolatey\bin" wurde nicht als Name eines Cmdlet, einer 
+Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, 
+oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:830
++ ... 0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Prog ...
++                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\ProgramData\chocolatey\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : Die Benennung "C:\Program" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:860
++ ... WS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\O ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\system32 : Die Benennung "C:\WINDOWS\system32" wurde nicht als Name eines Cmdlet, einer Funktion, einer 
+Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad 
+korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:900
++ ... n;C:\Program Files\OpenJDK\jdk-14.0.1\bin;C:\WINDOWS\system32;C:\WIND ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\system32:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS : Die Benennung "C:\WINDOWS" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:920
++ ... m Files\OpenJDK\jdk-14.0.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WIND ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\System32\Wbem : Die Benennung "C:\WINDOWS\System32\Wbem" wurde nicht als Name eines Cmdlet, einer Funktion, 
+einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der 
+Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:931
++ ... 1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WIND ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\System32\Wbem:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\ : Die Benennung "C:\WINDOWS\System32\WindowsPowerShell\v1.0\" wurde nicht 
+als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die 
+Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:956
++ ... OWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WIND ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\Syst...owerShell\v1.0\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\System32\OpenSSH\ : Die Benennung "C:\WINDOWS\System32\OpenSSH\" wurde nicht als Name eines Cmdlet, einer 
+Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, 
+oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1000
++ ... System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Prog ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\System32\OpenSSH\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : Die Benennung "C:\Program" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1029
++ ... ndowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\N ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+D:\freue\App : Die Benennung "D:\freue\App" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1084
++ ... gram Files\NVIDIA Corporation\NVIDIA app\NvDLISR;D:\freue\App Program ...
++                                                      ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\freue\App:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\jdk-14\bin : Die Benennung "C:\jdk-14\bin" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei 
+oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist 
+(sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1117
++ ... IA app\NvDLISR;D:\freue\App Program\GIT\Git\cmd;C:\jdk-14\bin;C:\apac ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\jdk-14\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\apache-ant-1.10.7\bin : Die Benennung "C:\apache-ant-1.10.7\bin" wurde nicht als Name eines Cmdlet, einer Funktion, 
+einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der 
+Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1131
++ ... pp Program\GIT\Git\cmd;C:\jdk-14\bin;C:\apache-ant-1.10.7\bin;C:\ASty ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\apache-ant-1.10.7\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\AStyle\bin : Die Benennung "C:\AStyle\bin" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei 
+oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist 
+(sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1156
++ ... \Git\cmd;C:\jdk-14\bin;C:\apache-ant-1.10.7\bin;C:\AStyle\bin;D:\dev\ ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\AStyle\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+D:\dev\flutter\bin : Die Benennung "D:\dev\flutter\bin" wurde nicht als Name eines Cmdlet, einer Funktion, einer 
+Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad 
+korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1170
++ ... bin;C:\apache-ant-1.10.7\bin;C:\AStyle\bin;D:\dev\flutter\bin;C:\Note ...
++                                                ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\dev\flutter\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Notepad++\ : Die Benennung "C:\Notepad++\" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei 
+oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist 
+(sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1189
++ ... ant-1.10.7\bin;C:\AStyle\bin;D:\dev\flutter\bin;C:\Notepad++\;C:\User ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Notepad++\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\freue\AppData\Local\Microsoft\WindowsApps : Die Benennung 
+"C:\Users\freue\AppData\Local\Microsoft\WindowsApps" wurde nicht als Name eines Cmdlet, einer Funktion, einer 
+Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad 
+korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1203
++ ... \Notepad++\;C:\Users\freue\AppData\Local\Microsoft\WindowsApps;D:\fre ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\freue\...oft\WindowsApps:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+D:\freue\App : Die Benennung "D:\freue\App" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1254
++ ... \Users\freue\AppData\Local\Microsoft\WindowsApps;D:\freue\App Program ...
++                                                      ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\freue\App:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\freue\.vscode\extensions\openai.chatgpt-0.4.76-win32-x64\bin\windows-x86_64=C:\Program Files\nodejs; : Die 
+Benennung "c:\Users\freue\.vscode\extensions\openai.chatgpt-0.4.76-win32-x64\bin\windows-x86_64=C:\Program 
+Files\nodejs;" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms 
+erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen 
+Sie den Vorgang.
+In Zeile:1 Zeichen:1298
++ ... S Code\bin;;c:\Users\freue\.vscode\extensions\openai.chatgpt-0.4.76-w ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\freue\...m Files\nodejs;:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+x86 : Die Benennung "x86" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren 
+Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und 
+wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1478
++ ... \freue\.codex\tmp\arg0\codex-arg0nYNyTz;C:\Program Files (x86)\Intel\ ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+R : Der letzte Verlauf wurde nicht gefunden.
+In Zeile:1 Zeichen:1562
++ ... gement Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Manage ...
++                                                                 ~
+    + CategoryInfo          : InvalidOperation: (:) [Invoke-History], InvalidOperationException
+    + FullyQualifiedErrorId : InvokeHistoryNoLastHistoryEntryFound,Microsoft.PowerShell.Commands.InvokeHistoryCommand
+ 
+C:\Windows\system32 : Die Benennung "C:\Windows\system32" wurde nicht als Name eines Cmdlet, einer Funktion, einer 
+Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad 
+korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1600
++ ... tel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Wind ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\system32:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows : Die Benennung "C:\Windows" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1620
++ ... gement Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Wind ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\Wbem : Die Benennung "C:\Windows\System32\Wbem" wurde nicht als Name eines Cmdlet, einer Funktion, 
+einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der 
+Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1631
++ ... iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Wind ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\System32\Wbem:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Windows\System32\WindowsPowerShell\v1.0\ : Die Benennung "C:\Windows\System32\WindowsPowerShell\v1.0\" wurde nicht 
+als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die 
+Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1656
++ ... ows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Prog ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\Syst...owerShell\v1.0\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+x86 : Die Benennung "x86" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren 
+Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und 
+wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1718
++ ... indows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\ ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+R : Der letzte Verlauf wurde nicht gefunden.
+In Zeile:1 Zeichen:1800
++ ... nagement Engine Components\DAL;C:\Program Files\Intel\Intel(R) Manage ...
++                                                                 ~
+    + CategoryInfo          : InvalidOperation: (:) [Invoke-History], InvalidOperationException
+    + FullyQualifiedErrorId : InvokeHistoryNoLastHistoryEntryFound,Microsoft.PowerShell.Commands.InvokeHistoryCommand
+ 
+x86 : Die Benennung "x86" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren 
+Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und 
+wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1854
++ ... tel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\ ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+R : Der letzte Verlauf wurde nicht gefunden.
+In Zeile:1 Zeichen:1936
++ ... nagement Engine Components\IPT;C:\Program Files\Intel\Intel(R) Manage ...
++                                                                 ~
+    + CategoryInfo          : InvalidOperation: (:) [Invoke-History], InvalidOperationException
+    + FullyQualifiedErrorId : InvokeHistoryNoLastHistoryEntryFound,Microsoft.PowerShell.Commands.InvokeHistoryCommand
+ 
+x86 : Die Benennung "x86" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren 
+Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und 
+wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:1990
++ ... tel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (x86:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : Die Benennung "C:\Program" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2027
++ ... rogram Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\I ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : Die Benennung "C:\Program" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2060
++ ... tion\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\C ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\system32 : Die Benennung "C:\WINDOWS\system32" wurde nicht als Name eines Cmdlet, einer Funktion, einer 
+Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad 
+korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2112
++ ...  Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WIND ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\system32:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS : Die Benennung "C:\WINDOWS" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2132
++ ... on Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WIND ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\System32\Wbem : Die Benennung "C:\WINDOWS\System32\Wbem" wurde nicht als Name eines Cmdlet, einer Funktion, 
+einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der 
+Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2143
++ ... mmon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WIND ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\System32\Wbem:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\ : Die Benennung "C:\WINDOWS\System32\WindowsPowerShell\v1.0\" wurde nicht 
+als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die 
+Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2168
++ ... OWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WIND ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\Syst...owerShell\v1.0\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\System32\OpenSSH\ : Die Benennung "C:\WINDOWS\System32\OpenSSH\" wurde nicht als Name eines Cmdlet, einer 
+Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, 
+oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2212
++ ... System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Prog ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\System32\OpenSSH\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\ProgramData\chocolatey\bin : Die Benennung "C:\ProgramData\chocolatey\bin" wurde nicht als Name eines Cmdlet, einer 
+Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, 
+oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2241
++ ... 0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Prog ...
++                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\ProgramData\chocolatey\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : Die Benennung "C:\Program" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2271
++ ... WS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\O ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\system32 : Die Benennung "C:\WINDOWS\system32" wurde nicht als Name eines Cmdlet, einer Funktion, einer 
+Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad 
+korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2311
++ ... n;C:\Program Files\OpenJDK\jdk-14.0.1\bin;C:\WINDOWS\system32;C:\WIND ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\system32:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS : Die Benennung "C:\WINDOWS" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2331
++ ... m Files\OpenJDK\jdk-14.0.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WIND ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\System32\Wbem : Die Benennung "C:\WINDOWS\System32\Wbem" wurde nicht als Name eines Cmdlet, einer Funktion, 
+einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der 
+Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2342
++ ... 1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WIND ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\System32\Wbem:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\ : Die Benennung "C:\WINDOWS\System32\WindowsPowerShell\v1.0\" wurde nicht 
+als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die 
+Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2367
++ ... OWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WIND ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\Syst...owerShell\v1.0\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\WINDOWS\System32\OpenSSH\ : Die Benennung "C:\WINDOWS\System32\OpenSSH\" wurde nicht als Name eines Cmdlet, einer 
+Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, 
+oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2411
++ ... System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Prog ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\System32\OpenSSH\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Program : Die Benennung "C:\Program" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2440
++ ... ndowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\N ...
++                                                        ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Program:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+D:\freue\App : Die Benennung "D:\freue\App" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2495
++ ... gram Files\NVIDIA Corporation\NVIDIA app\NvDLISR;D:\freue\App Program ...
++                                                      ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\freue\App:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\jdk-14\bin : Die Benennung "C:\jdk-14\bin" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei 
+oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist 
+(sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2528
++ ... IA app\NvDLISR;D:\freue\App Program\GIT\Git\cmd;C:\jdk-14\bin;C:\apac ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\jdk-14\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\apache-ant-1.10.7\bin : Die Benennung "C:\apache-ant-1.10.7\bin" wurde nicht als Name eines Cmdlet, einer Funktion, 
+einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der 
+Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2542
++ ... pp Program\GIT\Git\cmd;C:\jdk-14\bin;C:\apache-ant-1.10.7\bin;C:\ASty ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\apache-ant-1.10.7\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\AStyle\bin : Die Benennung "C:\AStyle\bin" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei 
+oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist 
+(sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2567
++ ... \Git\cmd;C:\jdk-14\bin;C:\apache-ant-1.10.7\bin;C:\AStyle\bin;D:\dev\ ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\AStyle\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+D:\dev\flutter\bin : Die Benennung "D:\dev\flutter\bin" wurde nicht als Name eines Cmdlet, einer Funktion, einer 
+Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad 
+korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2581
++ ... bin;C:\apache-ant-1.10.7\bin;C:\AStyle\bin;D:\dev\flutter\bin;C:\Note ...
++                                                ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\dev\flutter\bin:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Notepad++\ : Die Benennung "C:\Notepad++\" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei 
+oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist 
+(sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2600
++ ... ant-1.10.7\bin;C:\AStyle\bin;D:\dev\flutter\bin;C:\Notepad++\;C:\User ...
++                                                     ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Notepad++\:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+C:\Users\freue\AppData\Local\Microsoft\WindowsApps : Die Benennung 
+"C:\Users\freue\AppData\Local\Microsoft\WindowsApps" wurde nicht als Name eines Cmdlet, einer Funktion, einer 
+Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad 
+korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2614
++ ... \Notepad++\;C:\Users\freue\AppData\Local\Microsoft\WindowsApps;D:\fre ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\freue\...oft\WindowsApps:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+D:\freue\App : Die Benennung "D:\freue\App" wurde nicht als Name eines Cmdlet, einer Funktion, einer Skriptdatei oder 
+eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise des Namens, oder ob der Pfad korrekt ist (sofern 
+enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2665
++ ... \Users\freue\AppData\Local\Microsoft\WindowsApps;D:\freue\App Program ...
++                                                      ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\freue\App:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+c:\Users\freue\.vscode\extensions\openai.chatgpt-0.4.76-win32-x64\bin\windows-x86_64 : Die Benennung 
+"c:\Users\freue\.vscode\extensions\openai.chatgpt-0.4.76-win32-x64\bin\windows-x86_64" wurde nicht als Name eines 
+Cmdlet, einer Funktion, einer Skriptdatei oder eines ausfÅhrbaren Programms erkannt. öberprÅfen Sie die Schreibweise 
+des Namens, oder ob der Pfad korrekt ist (sofern enthalten), und wiederholen Sie den Vorgang.
+In Zeile:1 Zeichen:2709
++ ... S Code\bin;;c:\Users\freue\.vscode\extensions\openai.chatgpt-0.4.76-w ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\freue\...\windows-x86_64:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Der Befehl ""node"" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
