@@ -102,14 +102,9 @@ main {
 
 .logo-image {
   width: auto;
-  height: 40px;
-  max-width: 162px;
+  height: 52px;
+  max-width: 220px;
   object-fit: contain;
-}
-
-.logo-name {
-  font-size: 1rem;
-  letter-spacing: 0.2px;
 }
 
 .nav-list {
@@ -651,7 +646,8 @@ a:focus-visible {
   }
 
   .logo-image {
-    height: 34px;
+    height: 42px;
+    max-width: 180px;
   }
 
   .slide-frame {

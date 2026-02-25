@@ -131,8 +131,13 @@ export function TopChrome() {
         <div className="container header-inner">
           <div className="brand-row">
             <Link href="/" className="logo" aria-label="Startseite">
-              <Image src="/arnold-logo.svg" alt="Arnold Automobile Logo" width={162} height={52} className="logo-image" />
-              <span className="logo-name">Arnold Automobile</span>
+              <Image
+                src="/uploads/arnold-logo.png"
+                alt="Arnold Automobile Logo"
+                width={220}
+                height={72}
+                className="logo-image"
+              />
             </Link>
 
             <nav aria-label="Hauptnavigation">
