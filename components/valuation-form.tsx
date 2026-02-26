@@ -33,7 +33,7 @@ export function ValuationForm() {
     const files = formData.getAll("photos").filter((entry): entry is File => entry instanceof File);
 
     if (files.length < 4 || files.length > 12) {
-      setError("Bitte lade mindestens 4 und hoechstens 12 Bilder hoch.");
+      setError("Bitte lade mindestens 4 und höchstens 12 Bilder hoch.");
       setSubmitting(false);
       return;
     }

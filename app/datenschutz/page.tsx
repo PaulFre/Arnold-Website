@@ -8,7 +8,7 @@ export default function DatenschutzPage() {
           angepasst werden.
         </p>
         <h2>Verantwortliche Stelle</h2>
-        <p>Arnold Automobile, Musterstrasse 1, 67098 Bad Dürkheim</p>
+        <p>Arnold Automobile, Musterstraße 1, 67098 Bad Dürkheim</p>
         <h2>Zweck der Verarbeitung</h2>
         <p>
           Wir verarbeiten Formulardaten zur Bearbeitung von Fahrzeugbewertungen, Terminwünschen und allgemeinen

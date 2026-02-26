@@ -7,12 +7,12 @@ export function Footer() {
       <div className="container footer-grid">
         <section>
           <h2>{siteConfig.businessName}</h2>
-          <p>Musterstrasse 1</p>
+          <p>Musterstraße 1</p>
           <p>67098 {siteConfig.city}</p>
           <p>Telefon: {siteConfig.phoneDisplay}</p>
         </section>
         <section>
-          <h2>Oeffnungszeiten</h2>
+          <h2>Öffnungszeiten</h2>
           <p>Mo-Fr: 09:00-18:00 Uhr</p>
           <p>Sa: 10:00-14:00 Uhr</p>
           <p>So: geschlossen</p>

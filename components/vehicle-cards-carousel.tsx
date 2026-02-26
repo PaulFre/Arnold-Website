@@ -40,7 +40,7 @@ export function VehicleCardsCarousel() {
             <button type="button" aria-label="Vorherige Fahrzeuge" onClick={() => setPage((p) => Math.max(0, p - 1))}>
               {"<"}
             </button>
-            <button type="button" aria-label="Naechste Fahrzeuge" onClick={() => setPage((p) => Math.min(maxPage, p + 1))}>
+            <button type="button" aria-label="Nächste Fahrzeuge" onClick={() => setPage((p) => Math.min(maxPage, p + 1))}>
               {">"}
             </button>
           </div>

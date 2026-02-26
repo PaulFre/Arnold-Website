@@ -7,11 +7,11 @@ export default function ImpressumPage() {
           Platzhalter: Bitte dieses Impressum mit den rechtlich geprüften Unternehmensdaten (Name, Anschrift,
           Vertretungsberechtigte, Kontakt, USt-ID, Aufsichtsbehörde) ersetzen.
         </p>
-        <h2>Angaben gemaess 5 TMG</h2>
+        <h2>Angaben gemäß 5 TMG</h2>
         <p>
           Arnold Automobile
           <br />
-          Musterstrasse 1
+          Musterstraße 1
           <br />
           67098 Bad Dürkheim
         </p>

@@ -98,7 +98,7 @@ export async function POST(request: Request) {
         return Response.json({ ok: false, message: "Nur JPG, PNG oder HEIC Bilder erlaubt." }, { status: 400 });
       }
       if (file.size > MAX_FILE_SIZE) {
-        return Response.json({ ok: false, message: "Ein Bild ist groesser als 8 MB." }, { status: 400 });
+        return Response.json({ ok: false, message: "Ein Bild ist größer als 8 MB." }, { status: 400 });
       }
     }
 
@@ -119,7 +119,7 @@ export async function POST(request: Request) {
     });
 
     if (!parseResult.success) {
-      const message = parseResult.error.issues[0]?.message ?? "Bitte Eingaben pruefen.";
+      const message = parseResult.error.issues[0]?.message ?? "Bitte Eingaben prüfen.";
       return Response.json({ ok: false, message }, { status: 400 });
     }
 

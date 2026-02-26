@@ -7,7 +7,7 @@ const WEEKDAY_LABELS = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"];
 const MONTH_LABELS = [
   "Januar",
   "Februar",
-  "Maerz",
+  "März",
   "April",
   "Mai",
   "Juni",
@@ -140,7 +140,7 @@ export default function TerminPage() {
     event.preventDefault();
     if (selectedHour === null) {
       setBookingState("error");
-      setBookingMessage("Bitte zuerst einen freien Zeitslot auswaehlen.");
+      setBookingMessage("Bitte zuerst einen freien Zeitslot auswählen.");
       return;
     }
 
@@ -162,7 +162,7 @@ export default function TerminPage() {
 
       if (response.status === 409) {
         setBookingState("error");
-        setBookingMessage("Der Slot wurde gerade belegt. Bitte waehle einen anderen.");
+        setBookingMessage("Der Slot wurde gerade belegt. Bitte wähle einen anderen.");
         await refreshAvailability();
         return;
       }
@@ -190,19 +190,19 @@ export default function TerminPage() {
     <section className="section">
       <div className="container narrow">
         <h1>Termin vereinbaren</h1>
-        <p>Waehlen Sie Ihren Wunschtermin, wir bestaetigen kurzfristig.</p>
+        <p>Wählen Sie Ihren Wunschtermin, wir bestätigen kurzfristig.</p>
         <div className="card booking-entry-card">
           <button className="btn btn-primary" type="button" onClick={() => setShowBooking(true)}>
             Termin direkt buchen
           </button>
           <p className="booking-action-note">
-            Bitte waehlen Sie einen freien Termin in unserem Kalender, wir bestaetigen diesen in Kuerze.
+            Bitte wählen Sie einen freien Termin in unserem Kalender, wir bestätigen diesen in Kürze.
           </p>
           <a className="btn btn-secondary" href={createTelLink()}>
             Telefonisch anrufen
           </a>
           <p className="booking-action-note">Sie werden direkt zur Telefon-App weitergeleitet.</p>
-          <a className="btn btn-secondary" href={createWhatsappLink("Hallo, ich moechte einen Termin vereinbaren.")}>
+          <a className="btn btn-secondary" href={createWhatsappLink("Hallo, ich möchte einen Termin vereinbaren.")}>
             WhatsApp schreiben
           </a>
           <p className="booking-action-note">Sie werden direkt zu WhatsApp weitergeleitet.</p>
@@ -212,7 +212,7 @@ export default function TerminPage() {
       {showBooking && (
         <div className="modal-backdrop" role="presentation" onClick={closeModal}>
           <div className="modal booking-modal" role="dialog" aria-modal="true" onClick={(event) => event.stopPropagation()}>
-            <button className="modal-close" type="button" aria-label="Schliessen" onClick={closeModal}>
+            <button className="modal-close" type="button" aria-label="Schließen" onClick={closeModal}>
               x
             </button>
 
@@ -225,7 +225,7 @@ export default function TerminPage() {
                 <strong>
                   {MONTH_LABELS[monthStart.getMonth()]} {monthStart.getFullYear()}
                 </strong>
-                <button className="slot-nav-btn" type="button" onClick={nextMonth} aria-label="Naechster Monat">
+                <button className="slot-nav-btn" type="button" onClick={nextMonth} aria-label="Nächster Monat">
                   {">"}
                 </button>
               </div>
@@ -264,8 +264,8 @@ export default function TerminPage() {
               <h3>
                 Zeitslots am {selectedDate.getDate()}.{selectedDate.getMonth() + 1}.{selectedDate.getFullYear()}
               </h3>
-              {availabilityState === "loading" && <p>Verfuegbarkeit wird geladen...</p>}
-              {availabilityState === "error" && <p className="error-text">Verfuegbarkeit konnte nicht geladen werden.</p>}
+              {availabilityState === "loading" && <p>Verfügbarkeit wird geladen...</p>}
+              {availabilityState === "error" && <p className="error-text">Verfügbarkeit konnte nicht geladen werden.</p>}
               <ul className="slot-list">
                 {SLOT_HOURS.map((hour) => {
                   const isOccupied = occupiedOnSelectedDate.includes(hour);
@@ -289,7 +289,7 @@ export default function TerminPage() {
             </div>
 
             <form className="booking-form" onSubmit={onBookSlot}>
-              <h3>Termin abschliessen</h3>
+              <h3>Termin abschließen</h3>
               <label>
                 Name *
                 <input type="text" value={customerName} onChange={(event) => setCustomerName(event.target.value)} required />

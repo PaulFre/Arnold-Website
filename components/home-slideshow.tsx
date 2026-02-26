@@ -47,7 +47,7 @@ export function HomeSlideshow() {
               <span key={slide.id} className={i === index ? "dot active" : "dot"} />
             ))}
           </div>
-          <button type="button" aria-label="Naechster Slide" onClick={() => setIndex((prev) => (prev + 1) % slides.length)}>
+          <button type="button" aria-label="Nächster Slide" onClick={() => setIndex((prev) => (prev + 1) % slides.length)}>
             {">"}
           </button>
         </div>
