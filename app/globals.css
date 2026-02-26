@@ -581,6 +581,7 @@ p {
   display: grid;
   place-items: center;
   padding: 1rem;
+  overflow-y: auto;
 }
 
 .modal {
@@ -874,6 +875,8 @@ a:focus-visible {
   width: min(720px, 95vw);
   display: grid;
   gap: 1rem;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
 }
 
 .booking-calendar {
