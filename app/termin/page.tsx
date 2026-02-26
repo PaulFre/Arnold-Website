@@ -195,12 +195,17 @@ export default function TerminPage() {
           <button className="btn btn-primary" type="button" onClick={() => setShowBooking(true)}>
             Termin direkt buchen
           </button>
+          <p className="booking-action-note">
+            Bitte waehlen Sie einen freien Termin in unserem Kalender, wir bestaetigen diesen in Kuerze.
+          </p>
           <a className="btn btn-secondary" href={createTelLink()}>
             Telefonisch anrufen
           </a>
+          <p className="booking-action-note">Sie werden direkt zur Telefon-App weitergeleitet.</p>
           <a className="btn btn-secondary" href={createWhatsappLink("Hallo, ich moechte einen Termin vereinbaren.")}>
             WhatsApp schreiben
           </a>
+          <p className="booking-action-note">Sie werden direkt zu WhatsApp weitergeleitet.</p>
         </div>
       </div>
 

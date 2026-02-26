@@ -866,9 +866,17 @@ a:focus-visible {
 }
 
 .booking-entry-card {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.booking-entry-card .btn {
+  width: 100%;
+}
+
+.booking-action-note {
+  font-size: 0.95rem;
+  color: #bfc7d3;
 }
 
 .booking-modal {
