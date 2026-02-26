@@ -863,3 +863,142 @@ a:focus-visible {
     align-items: flex-start;
   }
 }
+
+.booking-entry-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.booking-modal {
+  width: min(720px, 95vw);
+  display: grid;
+  gap: 1rem;
+}
+
+.booking-calendar {
+  border: 1px solid #3d444f;
+  border-radius: 12px;
+  background: #171b22;
+  padding: 0.85rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.booking-calendar-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+}
+
+.booking-calendar-head strong {
+  font-size: 1rem;
+}
+
+.slot-nav-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  border: 1px solid #48505c;
+  background: #222833;
+  color: #eaf0f9;
+  cursor: pointer;
+}
+
+.booking-weekdays,
+.booking-days-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0.35rem;
+}
+
+.booking-weekdays span {
+  text-align: center;
+  color: #9fa9b8;
+  font-size: 0.86rem;
+}
+
+.booking-day-empty {
+  min-height: 36px;
+}
+
+.booking-day-btn {
+  min-height: 38px;
+  border-radius: 9px;
+  border: 1px solid #404753;
+  background: #222832;
+  color: #eef3fb;
+  cursor: pointer;
+}
+
+.booking-day-btn.active {
+  border-color: #ff943f;
+  background: #3a2a1c;
+}
+
+.booking-day-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.booking-slots {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.slot-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.slot-btn {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #435469;
+  background: #1e3346;
+  color: #d8ecff;
+  padding: 0.6rem 0.7rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.slot-btn.selected {
+  border-color: #ff9f52;
+  background: #403022;
+  color: #ffe4cc;
+}
+
+.slot-btn.occupied {
+  border-color: #8e3737;
+  background: #492325;
+  color: #ffb3b3;
+  cursor: not-allowed;
+}
+
+.booking-form {
+  border: 1px solid #3d4450;
+  border-radius: 12px;
+  background: #1a1f27;
+  padding: 0.8rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.booking-form h3 {
+  margin-bottom: 0;
+}
+
+.booking-success {
+  color: #97e9ad;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .booking-modal {
+    padding-top: 2rem;
+  }
+}

@@ -7,7 +7,7 @@ Phase-1/2 MVP als Next.js (App Router) fuer ein Autohaus in Deutschland.
 - `/` Startseite mit Hero, 3 Haupt-CTAs, USP-Kacheln, Ablauf, FAQ
 - `/fahrzeuge` eigener Fahrzeugbestand mit Kartenlayout und Markenfilter
 - `/bewerten` Bewertungsformular (Ankauf/Kommission) mit Uploads und DSGVO-Checkbox
-- `/termin` Termin-CTA (Booking Link) + WhatsApp/Telefon
+- `/termin` Live-Terminbuchung mit CalDAV-Abgleich + WhatsApp/Telefon
 - `/impressum` Platzhalterseite
 - `/datenschutz` Platzhalterseite
 - `/internal/inventory` interner Bereich zum Inserieren/Bearbeiten/Loeschen von Fahrzeugen (Basic Auth geschützt)
@@ -16,7 +16,7 @@ Phase-1/2 MVP als Next.js (App Router) fuer ein Autohaus in Deutschland.
 
 - Next.js App Router
 - React + TypeScript
-- API Routes: `/api/valuation`, `/api/internal/vehicles`
+- API Routes: `/api/valuation`, `/api/internal/vehicles`, `/api/booking`, `/api/booking/availability`
 - Validierung: `zod`
 - E-Mail Versand: `nodemailer`
 
@@ -33,7 +33,8 @@ Danach: `http://localhost:3000`
 ## Wichtige ENV Variablen
 
 - `NEXT_PUBLIC_PHONE_E164` fuer WhatsApp `wa.me` (ohne `+`, ohne Leerzeichen)
-- `NEXT_PUBLIC_BOOKING_URL` Link zur Terminseite (z.B. Google Booking)
+- `CALDAV_URL` / `CALDAV_USERNAME` / `CALDAV_PASSWORD` fuer Live-Kalenderabgleich und Buchung
+- `BOOKING_TIMEZONE` Zeitzone fuer Slots (Standard: `Europe/Berlin`)
 - `CONTACT_EMAIL_TO` Empfaengeradresse fuer Bewertungsanfragen
 - `ADMIN_USER` / `ADMIN_PASS` fuer internen Fahrzeugbereich ohne sichtbares Loginformular
 - `SMTP_*` fuer Mailversand aus der API
@@ -81,3 +82,10 @@ Die lokale Speicherung in `public/uploads/` ist fuer MVP okay, aber fuer Produkt
 ## Optionaler Hinweis zu Tracking/Cookies
 
 In dieser Phase ist kein Tracking eingebaut, daher kein Cookie-Banner erforderlich.
+
+## Terminbuchung (CalDAV)
+
+- Auf `/termin` oeffnet sich ein Buchungsfenster mit Monatskalender.
+- Slots: 10:00-17:00 in 1h-Schritten, mit Mittagspause 12:00-13:00.
+- Belegte Slots werden per CalDAV live geladen und rot dargestellt.
+- Bei Buchung wird ein VEVENT direkt in den konfigurierten CalDAV-Kalender geschrieben.
