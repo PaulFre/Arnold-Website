@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import { Vehicle } from "@/lib/vehicles";
 
@@ -47,42 +48,45 @@ export function VehicleInventory({ vehicles, brands }: Props) {
             ) : (
               filtered.map((vehicle) => (
                 <article className="vehicle-list-card" key={vehicle.id}>
-                  <div className="vehicle-list-image">
-                    <img src={vehicle.imageUrl} alt={`${vehicle.brand} ${vehicle.model}`} loading="lazy" />
-                  </div>
-                  <div className="vehicle-list-content">
-                    <header>
-                      <h2>{vehicle.brand}</h2>
-                      <h3>{vehicle.model}</h3>
-                    </header>
-                    <p className="vehicle-price">{formatCurrency(vehicle.priceEur)}</p>
-                    <div className="vehicle-spec-grid">
-                      <p>
-                        <span>Erstzulassung</span>
-                        {formatFirstRegistration(vehicle.firstRegistration)}
-                      </p>
-                      <p>
-                        <span>Kilometerstand</span>
-                        {formatMileage(vehicle.mileageKm)}
-                      </p>
-                      <p>
-                        <span>Kraftstoff</span>
-                        {vehicle.fuel}
-                      </p>
-                      <p>
-                        <span>Leistung</span>
-                        {vehicle.powerPs} PS
-                      </p>
-                      <p>
-                        <span>Getriebe</span>
-                        {vehicle.transmission}
-                      </p>
-                      <p>
-                        <span>Standort</span>
-                        {vehicle.location}
-                      </p>
+                  <Link href={`/fahrzeuge/${vehicle.id}`} className="vehicle-list-link" aria-label={`${vehicle.brand} ${vehicle.model} anzeigen`}>
+                    <div className="vehicle-list-image">
+                      <img src={vehicle.imageUrl} alt={`${vehicle.brand} ${vehicle.model}`} loading="lazy" />
                     </div>
-                  </div>
+                    <div className="vehicle-list-content">
+                      <header>
+                        <h2>{vehicle.brand}</h2>
+                        <h3>{vehicle.model}</h3>
+                      </header>
+                      <p className="vehicle-price">{formatCurrency(vehicle.priceEur)}</p>
+                      <div className="vehicle-spec-grid">
+                        <p>
+                          <span>Erstzulassung</span>
+                          {formatFirstRegistration(vehicle.firstRegistration)}
+                        </p>
+                        <p>
+                          <span>Kilometerstand</span>
+                          {formatMileage(vehicle.mileageKm)}
+                        </p>
+                        <p>
+                          <span>Kraftstoff</span>
+                          {vehicle.fuel}
+                        </p>
+                        <p>
+                          <span>Leistung</span>
+                          {vehicle.powerPs} PS
+                        </p>
+                        <p>
+                          <span>Getriebe</span>
+                          {vehicle.transmission}
+                        </p>
+                        <p>
+                          <span>Standort</span>
+                          {vehicle.location}
+                        </p>
+                      </div>
+                      <span className="vehicle-detail-cta">Details & Finanzierung ansehen</span>
+                    </div>
+                  </Link>
                 </article>
               ))
             )}
