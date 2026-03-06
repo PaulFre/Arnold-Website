@@ -757,7 +757,7 @@ fieldset input[type="radio"],
 
 .company-subnav-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 0.7rem;
 }
 
@@ -970,10 +970,6 @@ a:focus-visible {
   }
 
   .form-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .company-subnav-grid {
     grid-template-columns: 1fr;
   }
 

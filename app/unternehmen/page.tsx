@@ -50,12 +50,6 @@ export default async function UnternehmenPage({ searchParams }: UnternehmenPageP
           </div>
         </nav>
 
-        {selectedSection === null ? (
-          <section className="card anchored-card">
-            <p>Bitte waehle oben einen Bereich aus.</p>
-          </section>
-        ) : null}
-
         {selectedSection === "bewertungen" ? (
           <section id="bewertungen" className="card anchored-card">
             <h2>{sectionConfig.bewertungen.title}</h2>
