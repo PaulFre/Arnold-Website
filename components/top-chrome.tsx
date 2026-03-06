@@ -140,9 +140,9 @@ export function TopChrome() {
                 <li className="menu-item">
                   <Link href="/unternehmen">Unternehmen</Link>
                   <div className="dropdown">
-                    <Link href="/unternehmen?section=bewertungen">Bewertungen</Link>
-                    <Link href="/unternehmen?section=galerie">Bildergalerie</Link>
-                    <Link href="/unternehmen?section=ueber-uns">Ueber uns</Link>
+                    <Link href="/unternehmen/bewertungen">Bewertungen</Link>
+                    <Link href="/unternehmen/galerie">Bildergalerie</Link>
+                    <Link href="/unternehmen/ueber-uns">Ueber uns</Link>
                   </div>
                 </li>
                 <li>
