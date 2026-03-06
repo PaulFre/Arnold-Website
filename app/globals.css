@@ -781,6 +781,13 @@ fieldset input[type="radio"],
   color: #ffd4ae;
 }
 
+.company-back-link {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #f4bb8d;
+  font-weight: 700;
+}
+
 .reviews-grid {
   margin-top: 0.8rem;
   display: grid;

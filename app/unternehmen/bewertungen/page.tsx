@@ -1,5 +1,5 @@
-import { CompanySubnav } from "../subnav";
 import { readCompanyReviews } from "@/lib/reviews";
+import Link from "next/link";
 
 export const revalidate = 3600;
 
@@ -9,8 +9,10 @@ export default async function UnternehmenBewertungenPage() {
   return (
     <section className="section">
       <div className="container">
+        <Link href="/unternehmen" className="company-back-link">
+          ← Zurueck zur Unternehmensuebersicht
+        </Link>
         <h1>Bewertungen</h1>
-        <CompanySubnav activeKey="bewertungen" />
 
         <section className="card anchored-card">
           <div className="reviews-grid">
