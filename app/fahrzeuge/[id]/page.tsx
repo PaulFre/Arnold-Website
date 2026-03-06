@@ -107,7 +107,10 @@ export default async function FahrzeugDetailPage({ params }: PageProps) {
             </ul>
             {equipmentMore.length > 0 ? (
               <details className="vehicle-more-block">
-                <summary>Mehr Informationen anzeigen</summary>
+                <summary>
+                  <span className="more-label-open">Weniger Informationen anzeigen</span>
+                  <span className="more-label-closed">Mehr Informationen anzeigen</span>
+                </summary>
                 <ul className="vehicle-equipment-grid">
                   {equipmentMore.map((item) => (
                     <li key={item}>{item}</li>
@@ -130,7 +133,10 @@ export default async function FahrzeugDetailPage({ params }: PageProps) {
             </ul>
             {descriptionMore.length > 0 ? (
               <details className="vehicle-more-block">
-                <summary>Mehr Informationen anzeigen</summary>
+                <summary>
+                  <span className="more-label-open">Weniger Informationen anzeigen</span>
+                  <span className="more-label-closed">Mehr Informationen anzeigen</span>
+                </summary>
                 <ul className="vehicle-description-list">
                   {descriptionMore.map((line) => (
                     <li key={line}>{line}</li>

@@ -1265,6 +1265,18 @@ a:focus-visible {
   transform: rotate(0deg);
 }
 
+.vehicle-more-block .more-label-open {
+  display: none;
+}
+
+.vehicle-more-block[open] .more-label-open {
+  display: inline;
+}
+
+.vehicle-more-block[open] .more-label-closed {
+  display: none;
+}
+
 .finance-card {
   border: 1px solid #3a414c;
   border-radius: 10px;
