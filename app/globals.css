@@ -755,6 +755,48 @@ fieldset input[type="radio"],
   scroll-margin-top: 96px;
 }
 
+.reviews-grid {
+  margin-top: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.review-tile {
+  border: 1px solid #3d4551;
+  border-radius: 10px;
+  background: #1b2028;
+  padding: 0.85rem;
+  display: grid;
+  gap: 0.9rem;
+  align-content: space-between;
+}
+
+.review-text {
+  color: #ecf1f8;
+}
+
+.review-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.review-meta strong {
+  color: #f2f5fb;
+}
+
+.review-source-badge {
+  border: 1px solid #44648b;
+  background: #24384f;
+  color: #d7e9ff;
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
 .inventory-wrap,
 .valuation-form {
   display: grid;
@@ -905,6 +947,10 @@ a:focus-visible {
     grid-template-columns: 1fr;
   }
 
+  .reviews-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .internal-option-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -954,6 +1000,10 @@ a:focus-visible {
   .internal-row {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
   }
 
   .internal-option-grid,
