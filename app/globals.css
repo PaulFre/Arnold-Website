@@ -755,6 +755,32 @@ fieldset input[type="radio"],
   scroll-margin-top: 96px;
 }
 
+.company-subnav-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+
+.company-subnav-link {
+  border: 1px solid #3f4a5a;
+  border-radius: 10px;
+  padding: 0.65rem 0.75rem;
+  background: #1d2330;
+  color: #e9eef8;
+  font-weight: 700;
+  text-align: center;
+}
+
+.company-subnav-link:hover {
+  border-color: #5a6880;
+}
+
+.company-subnav-link.active {
+  border-color: #ff8f3c;
+  background: #3a2b1f;
+  color: #ffd4ae;
+}
+
 .reviews-grid {
   margin-top: 0.8rem;
   display: grid;
@@ -944,6 +970,10 @@ a:focus-visible {
   }
 
   .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .company-subnav-grid {
     grid-template-columns: 1fr;
   }
 
