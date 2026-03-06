@@ -20,6 +20,9 @@ const formatFirstRegistration = (value: string): string => {
   return `${month}/${year}`;
 };
 
+const EQUIPMENT_PREVIEW_LIMIT = 9;
+const DESCRIPTION_PREVIEW_LIMIT = 8;
+
 export default async function FahrzeugDetailPage({ params }: PageProps) {
   const { id } = await params;
   const vehicles = await readVehicles();
@@ -28,6 +31,13 @@ export default async function FahrzeugDetailPage({ params }: PageProps) {
   if (!vehicle) {
     notFound();
   }
+
+  const equipment = vehicle.equipment ?? [];
+  const descriptionLines = vehicle.descriptionLines ?? [];
+  const equipmentPreview = equipment.slice(0, EQUIPMENT_PREVIEW_LIMIT);
+  const equipmentMore = equipment.slice(EQUIPMENT_PREVIEW_LIMIT);
+  const descriptionPreview = descriptionLines.slice(0, DESCRIPTION_PREVIEW_LIMIT);
+  const descriptionMore = descriptionLines.slice(DESCRIPTION_PREVIEW_LIMIT);
 
   return (
     <section className="section">
@@ -84,6 +94,52 @@ export default async function FahrzeugDetailPage({ params }: PageProps) {
             </div>
           </div>
         </article>
+
+        {equipment.length > 0 ? (
+          <article className="vehicle-detail-extra-card">
+            <header className="vehicle-detail-extra-head">
+              <h2>Ausstattung</h2>
+            </header>
+            <ul className="vehicle-equipment-grid">
+              {equipmentPreview.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            {equipmentMore.length > 0 ? (
+              <details className="vehicle-more-block">
+                <summary>Mehr Informationen anzeigen</summary>
+                <ul className="vehicle-equipment-grid">
+                  {equipmentMore.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </details>
+            ) : null}
+          </article>
+        ) : null}
+
+        {descriptionLines.length > 0 ? (
+          <article className="vehicle-detail-extra-card">
+            <header className="vehicle-detail-extra-head">
+              <h2>Fahrzeugbeschreibung</h2>
+            </header>
+            <ul className="vehicle-description-list">
+              {descriptionPreview.map((line) => (
+                <li key={line}>{line}</li>
+              ))}
+            </ul>
+            {descriptionMore.length > 0 ? (
+              <details className="vehicle-more-block">
+                <summary>Mehr Informationen anzeigen</summary>
+                <ul className="vehicle-description-list">
+                  {descriptionMore.map((line) => (
+                    <li key={line}>{line}</li>
+                  ))}
+                </ul>
+              </details>
+            ) : null}
+          </article>
+        ) : null}
 
         <FinancingCalculator vehiclePrice={vehicle.priceEur} vehicleLabel={`${vehicle.brand} ${vehicle.model}`} />
       </div>

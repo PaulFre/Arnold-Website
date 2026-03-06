@@ -11,7 +11,38 @@
     "powerPs": 204,
     "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80",
     "location": "Bad Dürkheim",
-    "isAvailable": true
+    "isAvailable": true,
+    "equipment": [
+      "ABS",
+      "Front-, Seiten- und Kopfairbags",
+      "Regensensor",
+      "Bluetooth",
+      "Automatische Klimatisierung 3 Zonen",
+      "Elektrische Außenspiegel",
+      "Freisprecheinrichtung",
+      "Elektrische Fensterheber",
+      "ESP",
+      "Multifunktionslenkrad",
+      "Isofix",
+      "Servolenkung",
+      "Reifendruckkontrolle",
+      "LED-Scheinwerfer",
+      "Traktionskontrolle",
+      "Zentralverriegelung",
+      "Wegfahrsperre",
+      "Lederlenkrad"
+    ],
+    "descriptionLines": [
+      "Audi A6 Avant aus 1. Hand mit lückenloser Servicehistorie.",
+      "Garantie auf Wunsch bis zu 36 Monate verlängerbar.",
+      "MMI Navigation Plus inkl. Smartphone-Integration und Bluetooth Audio.",
+      "Audi virtual cockpit plus mit digitaler Instrumentenanzeige.",
+      "Komfortpaket mit 3-Zonen-Klimaautomatik und Sitzheizung vorne.",
+      "Lichtpaket mit LED-Scheinwerfern und dynamischer Leuchtweitenregulierung.",
+      "Einparkhilfe vorne und hinten inklusive Rückfahrkamera.",
+      "Adaptiver Tempomat inklusive Spurhalteassistent.",
+      "Gepflegter Innenraum, Nichtraucherfahrzeug."
+    ]
   },
   {
     "id": "bmw-320d-2021",
@@ -25,7 +56,23 @@
     "powerPs": 190,
     "imageUrl": "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1200&q=80",
     "location": "Bad Dürkheim",
-    "isAvailable": true
+    "isAvailable": true,
+    "equipment": [
+      "ACC Abstandstempomat",
+      "Spurhalteassistent",
+      "LED-Plus-Scheinwerfer",
+      "Performance-Bremsanlage",
+      "Rückfahrkamera",
+      "Apple CarPlay und Android Auto",
+      "Sitzheizung vorne",
+      "Schlüsselloses Startsystem",
+      "Sportfahrwerk"
+    ],
+    "descriptionLines": [
+      "BMW 320d Touring M Sport mit sehr guter Ausstattung und gepflegtem Zustand.",
+      "DSG-Getriebe, Service aktuell, sofort verfügbar.",
+      "Fahrzeug wird vor Auslieferung inklusive HU/AU-Check übergeben."
+    ]
   },
   {
     "id": "vw-golf-gti-2020",

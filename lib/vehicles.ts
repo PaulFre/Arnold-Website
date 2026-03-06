@@ -14,7 +14,9 @@ export const vehicleSchema = z.object({
   powerPs: z.coerce.number().int().positive(),
   imageUrl: z.string().url(),
   location: z.string().min(2),
-  isAvailable: z.boolean()
+  isAvailable: z.boolean(),
+  equipment: z.array(z.string().min(2)).optional(),
+  descriptionLines: z.array(z.string().min(2)).optional()
 });
 
 export type Vehicle = z.infer<typeof vehicleSchema>;
