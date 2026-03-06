@@ -1239,6 +1239,9 @@ a:focus-visible {
 .vehicle-more-block {
   display: grid;
   gap: 0.8rem;
+  grid-template-areas:
+    "summary"
+    "content";
 }
 
 .vehicle-more-block summary {
@@ -1247,22 +1250,21 @@ a:focus-visible {
   width: fit-content;
   color: #ffd0ab;
   font-weight: 700;
+  grid-area: summary;
 }
 
 .vehicle-more-block summary::-webkit-details-marker {
   display: none;
 }
 
-.vehicle-more-block summary::before {
-  content: "⌄";
-  margin-right: 0.45rem;
-  display: inline-block;
-  transform: rotate(-90deg);
-  transition: transform 140ms ease;
+.vehicle-more-block > ul {
+  grid-area: content;
 }
 
-.vehicle-more-block[open] summary::before {
-  transform: rotate(0deg);
+.vehicle-more-block[open] {
+  grid-template-areas:
+    "content"
+    "summary";
 }
 
 .vehicle-more-block .more-label-open {
